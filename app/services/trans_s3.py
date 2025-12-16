@@ -6,7 +6,7 @@ import json
 # --- Configuration ---
 # Set your region (e.g., 'us-west-2') and S3 URI (e.g., 's3://your-bucket-name/your-audio-file.mp3')
 AWS_REGION = 'us-west-2'
-JOB_URI = 's3://transcript-audio-chatbot/jee_20251212_065556.m4a'
+JOB_URI = 's3://transcript-audio-chatbot/uploads/jee_20251212_065556.mp3'
 MEDIA_FORMAT = JOB_URI.split('.')[-1]
 JOB_NAME = 'jee_20251212_065556'
 LANGUAGE_CODE = 'en-US'
